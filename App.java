@@ -5,7 +5,7 @@ public class App {
         
         System.out.println("Hello from Java App -- hosted on Github");
         System.out.println("New Changes Added -- through GitHub");
-        System.out.println("Jenkinsfile added to the repository");
+        
 
     }
 }
