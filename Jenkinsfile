@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent {
         label "docker-agent"
     }
@@ -14,6 +14,8 @@ pipeline {
                 echo "Building Stage Started"
                 sh '''
                     echo "Building processing..."
+                    javac App.java
+                    java App
                 '''
             }
         }
